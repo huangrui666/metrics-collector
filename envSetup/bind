@@ -1,0 +1,90 @@
+#!/bin/bash
+
+# 初始化数组来存储每个 CPU 的最大频率
+declare -a cpu_freqs
+
+# 获取 CPU 核心数量
+num_cpus=$(nproc)
+
+# 读取所有 CPU 核心的最大频率
+for ((i=0; i<num_cpus; i++)); do
+    cpu_freqs[$i]=$(cat /sys/devices/system/cpu/cpu$i/cpufreq/scaling_max_freq)
+done
+
+# 初始化 mask 变量
+p_core_mask=0
+e_core_mask=0
+
+# 找出最大和最小频率
+max_freq=${cpu_freqs[0]}
+min_freq=${cpu_freqs[0]}
+
+for freq in "${cpu_freqs[@]}"; do
+    if [[ $freq -gt $max_freq ]]; then
+        max_freq=$freq
+    fi
+    if [[ $freq -lt $min_freq ]]; then
+        min_freq=$freq
+    fi
+done
+
+# 区分 P core 和 E core
+for ((i=0; i<num_cpus; i++)); do
+    if [[ ${cpu_freqs[$i]} -eq $max_freq ]]; then
+        # 计算 P core 的 mask
+	echo "P core $i freq $max_freq"
+        p_core_mask=$((2**i))
+    fi
+done
+
+# 区分 P core 和 E core
+for ((i=0; i<num_cpus; i++)); do
+    if [[ ${cpu_freqs[$i]} -eq $min_freq ]]; then
+        # 计算 E core 的 mask
+        echo "E core $i freq $min_freq"
+        e_core_mask=$((2**i))
+    fi
+done
+# 输出结果
+echo "P core mask: $(printf '%x' $p_core_mask)"
+echo "E core mask: $(printf '%x' $e_core_mask)"
+
+# 示例：绑定进程到 P core
+# pid 是你想要绑定的进程的 PID
+# taskset -cp $p_core_mask $pi
+core=""
+pid=""
+while [ "$#" -gt 0 ]; do
+    case "$1" in
+        -i | --core)
+            shift
+            core=$1
+            shift
+            ;;
+        -p | --pid)
+            shift
+            pid=$1
+            shift
+            ;;
+        *)
+            help
+            ;;
+    esac
+done
+
+if [[ $core == "" ]]; then
+    help
+fi
+if [[ $pid == "" ]]; then
+    echo "please provide pid"
+fi
+
+if [[ $core == "p" ]]; then
+    echo "sudo taskset -ap $(printf '%x' $p_core_mask) $pid"
+    sudo taskset -ap $(printf '%x' $p_core_mask) $pid 
+fi
+
+if [[ $core == "e" ]]; then
+    echo "sudo taskset -ap $(printf '%x' $e_core_mask) $pid"
+    sudo taskset -ap $(printf '%x' $e_core_mask) $pid  
+fi

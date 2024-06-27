@@ -1,0 +1,20 @@
+sriov_numvfs
+2
+auto_provisioning
+0
+sriov_drivers_autoprobe
+1
+policy
+1
+pf exec_quantum_ms:
+30
+pf preemt_timout_us:
+40000000
+vf1 exec_quantum_ms:
+30
+vf1 preempt_timeout_us:
+30000000
+vf2 exec_quantum_ms:
+100
+vf2 preempt_timeout_us:
+1000000

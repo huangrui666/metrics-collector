@@ -1,0 +1,131 @@
+top - 10:46:57 up 3 min,  5 users,  load average: 0.24, 0.21, 0.09
+Tasks: 462 total,   1 running, 461 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.6 us,  1.8 sy,  0.0 ni, 97.6 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem :  31914.6 total,  17248.3 free,   6447.4 used,   8218.8 buff/cache
+MiB Swap:   2048.0 total,   2048.0 free,      0.0 used.  24986.8 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   4160 root      20   0    6440   3840   3040 S  25.0   0.0   0:00.04 intel_gpu_top
+    695 root      20   0  243200   7336   6696 S   6.2   0.0   0:00.06 accounts-daemon
+   4155 root      20   0   16432   4480   3520 R   6.2   0.0   0:00.01 top
+
+top - 10:47:00 up 3 min,  5 users,  load average: 0.22, 0.21, 0.09
+Tasks: 462 total,   1 running, 461 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.1 sy,  0.0 ni, 99.9 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem :  31914.6 total,  17247.9 free,   6447.9 used,   8218.8 buff/cache
+MiB Swap:   2048.0 total,   2048.0 free,      0.0 used.  24986.3 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   3973 hr        20   0   12.3g   6.2g   1.2g S   0.7  20.0   0:24.77 python
+     10 root      20   0       0      0      0 I   0.3   0.0   0:00.27 kworker/u40:0-events_power_efficient
+   2264 hr        20   0 5372184 276484 142056 S   0.3   0.8   0:04.41 gnome-shell
+   4155 root      20   0   16432   4480   3520 R   0.3   0.0   0:00.02 top
+
+top - 10:47:03 up 3 min,  5 users,  load average: 0.22, 0.21, 0.09
+Tasks: 462 total,   1 running, 461 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni, 99.9 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem :  31914.6 total,  17249.8 free,   6445.9 used,   8218.9 buff/cache
+MiB Swap:   2048.0 total,   2048.0 free,      0.0 used.  24988.3 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   3973 hr        20   0   12.3g   6.2g   1.2g S   1.0  20.0   0:24.80 python
+   2264 hr        20   0 5372164 276484 142056 S   0.3   0.8   0:04.42 gnome-shell
+   4155 root      20   0   16432   4480   3520 R   0.3   0.0   0:00.03 top
+
+top - 10:47:06 up 3 min,  5 users,  load average: 0.20, 0.21, 0.09
+Tasks: 462 total,   1 running, 461 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni, 99.9 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem :  31914.6 total,  17249.0 free,   6446.6 used,   8218.9 buff/cache
+MiB Swap:   2048.0 total,   2048.0 free,      0.0 used.  24987.6 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   3973 hr        20   0   12.3g   6.2g   1.2g S   1.3  20.0   0:24.84 python
+   4155 root      20   0   16432   4480   3520 R   0.3   0.0   0:00.04 top
+
+top - 10:47:09 up 3 min,  5 users,  load average: 0.18, 0.20, 0.09
+Tasks: 462 total,   1 running, 461 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.1 sy,  0.0 ni, 99.9 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem :  31914.6 total,  17248.3 free,   6447.3 used,   8218.9 buff/cache
+MiB Swap:   2048.0 total,   2048.0 free,      0.0 used.  24986.9 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   3973 hr        20   0   12.3g   6.2g   1.2g S   0.7  20.0   0:24.86 python
+    641 systemd+  20   0   14836   6720   5920 S   0.3   0.0   0:00.24 systemd-oomd
+   2264 hr        20   0 5372164 276484 142056 S   0.3   0.8   0:04.43 gnome-shell
+   3366 root      20   0 1238656  12472   9440 S   0.3   0.0   0:00.04 containerd-shim
+   4155 root      20   0   16432   4480   3520 R   0.3   0.0   0:00.05 top
+
+top - 10:47:12 up 3 min,  5 users,  load average: 0.18, 0.20, 0.09
+Tasks: 463 total,   1 running, 462 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.3 us,  0.1 sy,  0.0 ni, 99.5 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem :  31914.6 total,  17225.7 free,   6467.4 used,   8221.5 buff/cache
+MiB Swap:   2048.0 total,   2048.0 free,      0.0 used.  24966.7 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   3973 hr        20   0   12.3g   6.2g   1.2g S   5.0  20.0   0:25.01 python
+   4186 root      20   0  126520  31552  14560 S   2.0   0.1   0:00.06 python3
+    713 root      20   0   82784   3840   3520 S   0.3   0.0   0:00.02 irqbalance
+   2534 hr        20   0  350924  28564  18156 S   0.3   0.1   0:00.61 ibus-extension-
+   3076 hr        20   0  556720  51640  39692 S   0.3   0.2   0:00.85 gnome-terminal-
+   4073 hr        20   0    7320   3360   2880 S   0.3   0.0   0:00.03 top
+
+top - 10:47:15 up 3 min,  5 users,  load average: 0.25, 0.22, 0.10
+Tasks: 463 total,   1 running, 462 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  4.1 us,  1.0 sy,  0.0 ni, 94.9 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem :  31914.6 total,  17136.3 free,   6555.5 used,   8222.8 buff/cache
+MiB Swap:   2048.0 total,   2048.0 free,      0.0 used.  24878.4 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   3973 hr        20   0   12.5g   6.3g   1.2g S 100.3  20.2   0:28.02 python
+   1731 root      20   0 3086732  74816  49440 S   0.7   0.2   0:00.31 dockerd
+   3366 root      20   0 1238656  12472   9440 S   0.7   0.0   0:00.06 containerd-shim
+     16 root      20   0       0      0      0 I   0.3   0.0   0:00.16 rcu_preempt
+    311 root      20   0       0      0      0 I   0.3   0.0   0:00.02 kworker/u40:3-i915
+   3409 root      20   0    8092   4640   4160 S   0.3   0.0   0:00.01 sudo
+   4186 root      20   0  126520  31552  14560 S   0.3   0.1   0:00.07 python3
+
+top - 10:47:18 up 3 min,  5 users,  load average: 0.25, 0.22, 0.10
+Tasks: 467 total,   1 running, 466 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  3.0 us,  0.9 sy,  0.0 ni, 96.1 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem :  31914.6 total,  17078.3 free,   6600.1 used,   8236.2 buff/cache
+MiB Swap:   2048.0 total,   2048.0 free,      0.0 used.  24833.5 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   3973 hr        20   0   12.5g   6.3g   1.2g S  65.4  20.2   0:29.99 python
+   4205 root      20   0 1349036  91820  61120 S   6.0   0.3   0:00.18 xpu-smi
+   3366 root      20   0 1238656  12472   9440 S   1.0   0.0   0:00.09 containerd-shim
+   1731 root      20   0 3086732  74816  49440 S   0.7   0.2   0:00.33 dockerd
+     10 root      20   0       0      0      0 I   0.3   0.0   0:00.28 kworker/u40:0-ext4-rsv-conversion
+    142 root      20   0       0      0      0 I   0.3   0.0   0:00.05 kworker/u40:2-events_unbound
+   3409 root      20   0    8092   4640   4160 S   0.3   0.0   0:00.02 sudo
+   4155 root      20   0   16432   4480   3520 R   0.3   0.0   0:00.06 top
+   4186 root      20   0  126520  31552  14560 S   0.3   0.1   0:00.08 python3
+   4203 root      20   0    8608   5120   4480 S   0.3   0.0   0:00.01 sudo
+
+top - 10:47:21 up 3 min,  5 users,  load average: 0.23, 0.21, 0.10
+Tasks: 463 total,   1 running, 462 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.1 sy,  0.0 ni, 99.9 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem :  31914.6 total,  17108.7 free,   6566.5 used,   8239.4 buff/cache
+MiB Swap:   2048.0 total,   2048.0 free,      0.0 used.  24867.1 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    942 root      20   0 2539900  46880  32640 S   0.3   0.1   0:00.22 containerd
+   2043 hr        20   0   17940  10400   8000 S   0.3   0.0   0:00.22 systemd
+   3973 hr        20   0   12.5g   6.3g   1.2g S   0.3  20.2   0:30.00 python
+   4155 root      20   0   16432   4480   3520 R   0.3   0.0   0:00.07 top
+   4161 root      20   0   13192   4000   3680 S   0.3   0.0   0:00.01 get_gpu_mem.sh
+
+top - 10:47:24 up 3 min,  5 users,  load average: 0.21, 0.21, 0.09
+Tasks: 463 total,   1 running, 462 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem :  31914.6 total,  17106.5 free,   6568.7 used,   8239.4 buff/cache
+MiB Swap:   2048.0 total,   2048.0 free,      0.0 used.  24864.9 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   3973 hr        20   0   12.5g   6.3g   1.2g S   0.7  20.2   0:30.02 python
+     16 root      20   0       0      0      0 I   0.3   0.0   0:00.17 rcu_preempt
+    641 systemd+  20   0   14836   6720   5920 S   0.3   0.0   0:00.25 systemd-oomd
+   2264 hr        20   0 5372164 276484 142056 S   0.3   0.8   0:04.44 gnome-shell
+   4073 hr        20   0    7320   3360   2880 S   0.3   0.0   0:00.04 top
+   4155 root      20   0   16432   4480   3520 R   0.3   0.0   0:00.08 top
+   4186 root      20   0  126520  31552  14560 S   0.3   0.1   0:00.09 python3

@@ -1,0 +1,9 @@
+
+first_token_latency = 4.37 ms
+input_tokens_count = 973
+after_token_latency = 2305.02 ms/token
+output_tokens_count = 0
+gpu_message = 84
+anwser finish
+
+

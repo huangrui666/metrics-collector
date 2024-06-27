@@ -1,0 +1,134 @@
+top - 10:24:11 up 19:03,  6 users,  load average: 1.08, 0.98, 0.54
+Tasks: 493 total,   1 running, 492 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  3.9 us,  2.3 sy,  0.0 ni, 93.8 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem :  31914.6 total,   4128.1 free,  13173.6 used,  14612.9 buff/cache
+MiB Swap:   2048.0 total,   2048.0 free,      0.0 used.  17850.0 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  55015 hr        20   0   53.9g   4.6g 139584 S 131.2  14.9   5:34.95 witcher3.exe
+   2046 hr         9 -11 2481920  28276  21396 S  12.5   0.1   0:05.28 pulseaudio
+   8342 root      20   0  132056  31232  14560 S   6.2   0.1   1:12.91 python3
+  56256 root      20   0    6448   3840   3040 S   6.2   0.0   0:00.01 intel_gpu_top
+
+top - 10:24:14 up 19:03,  6 users,  load average: 1.08, 0.98, 0.54
+Tasks: 494 total,   1 running, 493 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  6.5 us,  2.2 sy,  0.0 ni, 91.3 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem :  31914.6 total,   4117.3 free,  13188.4 used,  14608.8 buff/cache
+MiB Swap:   2048.0 total,   2048.0 free,      0.0 used.  17839.3 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  55015 hr        20   0   53.9g   4.6g 139584 S 135.0  14.9   5:39.00 witcher3.exe
+  56085 hr        20   0   12.3g   6.3g   1.2g S   3.7  20.1   0:19.80 python
+   2252 hr        20   0 5317944 285920 142672 S   2.7   0.9   0:41.80 gnome-shell
+   2046 hr         9 -11 2481920  28276  21396 S   2.0   0.1   0:05.34 pulseaudio
+  56264 root      20   0  126520  30540  14080 S   2.0   0.1   0:00.06 python3
+  53483 hr        20   0 1163340 177100 131108 S   1.0   0.5   0:09.48 steam
+  54943 hr        20   0   44364  16696   2400 S   1.0   0.1   0:04.57 wineserver
+  53814 hr        20   0   48.4g 511184  97440 S   0.7   1.6   0:21.70 steamwebhelper
+  54962 hr        20   0  610972  52036  38208 S   0.7   0.2   0:01.88 winedevice.exe
+     17 root      rt   0       0      0      0 S   0.3   0.0   0:00.51 migration/0
+     22 root      rt   0       0      0      0 S   0.3   0.0   0:00.57 migration/2
+    100 root      rt   0       0      0      0 S   0.3   0.0   0:00.49 migration/1
+    642 systemd+  20   0   14836   6560   5920 S   0.3   0.0   0:47.13 systemd-oomd
+  12215 root      20   0  132056  31228  14560 S   0.3   0.1   1:08.68 python3
+  53294 root      20   0       0      0      0 I   0.3   0.0   0:00.30 kworker/u40:2-i915-gt0
+  53484 hr        20   0  540028  98472  66164 S   0.3   0.3   0:04.31 Xwayland
+  53717 hr        20   0 4785904 369492 289784 S   0.3   1.1   0:07.67 steamwebhelper
+  53760 hr        20   0 2695552 185472  97600 S   0.3   0.6   0:13.91 steamwebhelper
+  53861 root       0 -20       0      0      0 I   0.3   0.0   0:01.57 kworker/u41:1-i915_flip
+  54460 root      20   0       0      0      0 I   0.3   0.0   0:00.31 kworker/9:2-events
+  55123 hr        20   0  212604  49144  39616 S   0.3   0.2   0:01.20 gameoverlayui
+  56196 root      20   0       0      0      0 I   0.3   0.0   0:00.02 kworker/u40:8-events_unbound
+  56200 root      20   0       0      0      0 I   0.3   0.0   0:00.02 kworker/u40:12-i915
+
+top - 10:24:17 up 19:03,  6 users,  load average: 1.15, 1.00, 0.55
+Tasks: 494 total,   1 running, 493 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  8.4 us,  3.0 sy,  0.0 ni, 88.6 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem :  31914.6 total,   4101.5 free,  13204.3 used,  14608.8 buff/cache
+MiB Swap:   2048.0 total,   2048.0 free,      0.0 used.  17823.4 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  55015 hr        20   0   53.9g   4.6g 139584 S 121.9  14.9   5:42.67 witcher3.exe
+  56085 hr        20   0   12.4g   6.3g   1.2g S 100.0  20.2   0:22.81 python
+   2252 hr        20   0 5317944 285920 142672 S   2.3   0.9   0:41.87 gnome-shell
+   2046 hr         9 -11 2481920  28276  21396 S   2.0   0.1   0:05.40 pulseaudio
+  54943 hr        20   0   44364  16696   2400 S   1.0   0.1   0:04.60 wineserver
+  53483 hr        20   0 1163340 177100 131108 S   0.7   0.5   0:09.50 steam
+  53484 hr        20   0  540028  98472  66164 S   0.7   0.3   0:04.33 Xwayland
+  53717 hr        20   0 4785904 369492 289784 S   0.7   1.1   0:07.69 steamwebhelper
+  54962 hr        20   0  610972  52036  38208 S   0.7   0.2   0:01.90 winedevice.exe
+  55123 hr        20   0  212604  49144  39616 S   0.7   0.2   0:01.22 gameoverlayui
+     46 root      rt   0       0      0      0 S   0.3   0.0   0:00.52 migration/10
+     76 root      rt   0       0      0      0 S   0.3   0.0   0:00.56 migration/16
+   1722 root      20   0 3086732  75760  49920 S   0.3   0.2   0:07.00 dockerd
+   6027 root      20   0 1238400  13172   9440 S   0.3   0.0   0:03.17 containerd-shim
+   8141 root      20   0  132056  31076  14400 S   0.3   0.1   1:13.17 python3
+  10601 root      20   0  132056  31232  14560 S   0.3   0.1   1:11.48 python3
+  38358 root      20   0       0      0      0 I   0.3   0.0   0:00.20 kworker/6:0-events
+  53814 hr        20   0   48.4g 511184  97440 S   0.3   1.6   0:21.71 steamwebhelper
+  55403 hr        20   0   17720   8472   5920 S   0.3   0.0   0:00.02 sshd
+  56252 root      20   0   16540   4640   3680 R   0.3   0.0   0:00.01 top
+
+top - 10:24:20 up 19:03,  6 users,  load average: 1.15, 1.00, 0.55
+Tasks: 494 total,   3 running, 491 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  9.4 us,  2.8 sy,  0.0 ni, 87.7 id,  0.0 wa,  0.0 hi,  0.1 si,  0.0 st
+MiB Mem :  31914.6 total,   4105.0 free,  13200.8 used,  14608.8 buff/cache
+MiB Swap:   2048.0 total,   2048.0 free,      0.0 used.  17826.9 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  55015 hr        20   0   53.9g   4.6g 139584 R 127.0  14.9   5:46.48 witcher3.exe
+  56085 hr        20   0   12.4g   6.3g   1.2g S 100.0  20.2   0:25.81 python
+   2252 hr        20   0 5317944 285920 142672 S   2.3   0.9   0:41.94 gnome-shell
+   2046 hr         9 -11 2481920  28276  21396 R   2.0   0.1   0:05.46 pulseaudio
+   6027 root      20   0 1238400  13172   9440 S   1.0   0.0   0:03.20 containerd-shim
+  54943 hr        20   0   44364  16696   2400 S   1.0   0.1   0:04.63 wineserver
+  54962 hr        20   0  610972  52036  38208 S   1.0   0.2   0:01.93 winedevice.exe
+  53483 hr        20   0 1163340 177100 131108 S   0.7   0.5   0:09.52 steam
+  53814 hr        20   0   48.4g 511184  97440 S   0.7   1.6   0:21.73 steamwebhelper
+  55403 hr        20   0   17720   8472   5920 S   0.7   0.0   0:00.04 sshd
+     23 root      20   0       0      0      0 S   0.3   0.0   0:00.15 ksoftirqd/2
+     58 root      rt   0       0      0      0 S   0.3   0.0   0:00.57 migration/13
+    957 root      20   0 2687620  47108  32320 S   0.3   0.1   3:33.78 containerd
+   1722 root      20   0 3086732  75760  49920 S   0.3   0.2   0:07.01 dockerd
+   7723 root      20   0  132056  31072  14400 S   0.3   0.1   1:13.28 python3
+  12047 root      20   0  132056  31392  14560 S   0.3   0.1   1:08.73 python3
+  53717 hr        20   0 4785904 369492 289784 S   0.3   1.1   0:07.70 steamwebhelper
+  53861 root       0 -20       0      0      0 D   0.3   0.0   0:01.58 kworker/u41:1+i915_flip
+  55506 hr        20   0 1844532  24320  16640 S   0.3   0.1   0:00.03 docker
+  56197 root      20   0       0      0      0 I   0.3   0.0   0:00.02 kworker/u40:9-i915-mm
+  56252 root      20   0   16540   4640   3680 R   0.3   0.0   0:00.02 top
+  56264 root      20   0  126520  30540  14080 S   0.3   0.1   0:00.07 python3
+
+top - 10:24:23 up 19:04,  6 users,  load average: 1.22, 1.02, 0.56
+Tasks: 494 total,   1 running, 493 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  9.0 us,  3.1 sy,  0.0 ni, 87.8 id,  0.0 wa,  0.0 hi,  0.1 si,  0.0 st
+MiB Mem :  31914.6 total,   4104.5 free,  13201.2 used,  14608.9 buff/cache
+MiB Swap:   2048.0 total,   2048.0 free,      0.0 used.  17826.4 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  55015 hr        20   0   53.9g   4.6g 139584 S 118.9  14.9   5:50.06 witcher3.exe
+  56085 hr        20   0   12.4g   6.3g   1.2g S 100.0  20.2   0:28.82 python
+   2252 hr        20   0 5317944 285920 142672 S   2.0   0.9   0:42.00 gnome-shell
+   2046 hr         9 -11 2481920  28276  21396 S   1.7   0.1   0:05.51 pulseaudio
+  54943 hr        20   0   44364  16696   2400 S   1.3   0.1   0:04.67 wineserver
+   1722 root      20   0 3086732  75760  49920 S   0.7   0.2   0:07.03 dockerd
+   6027 root      20   0 1238400  13172   9440 S   0.7   0.0   0:03.22 containerd-shim
+  53483 hr        20   0 1163340 177100 131108 S   0.7   0.5   0:09.54 steam
+  53484 hr        20   0  540028  98472  66164 S   0.7   0.3   0:04.35 Xwayland
+  55123 hr        20   0  212604  49144  39616 S   0.7   0.2   0:01.24 gameoverlayui
+  55403 hr        20   0   17720   8472   5920 S   0.7   0.0   0:00.06 sshd
+   5090 hr        20   0  132060  31396  14560 S   0.3   0.1   1:14.82 python3
+   6932 root      20   0  132056  31072  14400 S   0.3   0.1   1:13.66 python3
+  12421 root      20   0  132056  31072  14400 S   0.3   0.1   1:08.63 python3
+  53294 root      20   0       0      0      0 I   0.3   0.0   0:00.31 kworker/u40:2-i915
+  53717 hr        20   0 4785904 369492 289784 S   0.3   1.1   0:07.71 steamwebhelper
+  53760 hr        20   0 2695552 185472  97600 S   0.3   0.6   0:13.92 steamwebhelper
+  53814 hr        20   0   48.4g 510960  97440 S   0.3   1.6   0:21.74 steamwebhelper
+  53861 root       0 -20       0      0      0 D   0.3   0.0   0:01.59 kworker/u41:1+i915_flip
+  54825 root      20   0       0      0      0 I   0.3   0.0   0:00.01 kworker/11:1-mm_percpu_wq
+  54962 hr        20   0  610972  52036  38208 S   0.3   0.2   0:01.94 winedevice.exe
+  55250 root      20   0  126520  30808  14400 S   0.3   0.1   0:00.16 python3
+  55506 hr        20   0 1844532  24320  16640 S   0.3   0.1   0:00.04 docker
+  56196 root      20   0       0      0      0 I   0.3   0.0   0:00.03 kworker/u40:8-i915
+  56200 root      20   0       0      0      0 I   0.3   0.0   0:00.03 kworker/u40:12-i915-mm
+  56256 root      20   0    6448   3840   3040 S   0.3   0.0   0:00.02 intel_gpu_top
